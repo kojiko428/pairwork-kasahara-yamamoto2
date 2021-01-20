@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./contact.css">
+  <link rel="stylesheet" type="text/css" href="../node_modules/csshake/dist/csshake-crazy.css">
+
+<!--
+  <link rel="stylesheet" type=".csshake/csshake-slow.css" href="https://csshake.surge.sh/csshake.min.css">
+ or from surge.sh -->
+
+  <title>お問い合わせフォーム</title>
+</head>
+
+
+<body>
+
+<div class="shake-crazy"><img src="./images/contact.png" class="logo_image"></div>
+
+<!-- class="logo_image"-->
+
+<div class="Form">
+
+  <div class="Form-Item">
+    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>User name</p>
+
+    <input type="text" class="Form-Item-Input" >
+
+    <select class="flexselect">
+      <option value="1">
+      <option value="1">✔
+    </select>
+
+
+  </div>
+  <div class="Form-Item">
+    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>Phone Number</p>
+    <input type="text" class="Form-Item-Input">
+
+    <select class="flexselect">
+      <option value="1">
+      <option value="1">✔
+
+
+
+
+    </select>
+
+  </div>
+  <div class="Form-Item">
+    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>Adress</p>
+    <input type="adress" class="Form-Item-Input">
+
+    <script>
+     jQuery(document).ready(function() {
+    $("select.flextselect").flexselect();
+     })
+   </script>
+
+   <select class="flexselect">
+     <option value="1">
+     <option value="1">✔
+   </select>
+
+  </div>
+  <div class="Form-Item">
+    <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>inquiry
+</p>
+    <textarea class="Form-Item-Textarea"></textarea>
+
+
+  </div>
+  <input type="submit" class="Form-Btn" value="送信する">
+</div>
+
+
+</body>
+</html>
